@@ -1,0 +1,35 @@
+{
+    "name": "alexzvon/dashboard",
+    "description": "admin panel",
+    "keywords": [
+        "Admin panel",
+        "AlexZvon",
+        "laravel"
+    ],
+    "homepage": "https://github.com/alexzvon/dashdoard",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zvonlexa",
+            "email": "zvon.lexa@yandex.ru",
+            "homepage": "https://alexzvon.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AlexZvon\\DashBoard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AlexZvon\\DashBoard\\AppServiceProvider"
+            ],
+            "aliases": {}
+        }
+    }
+}
